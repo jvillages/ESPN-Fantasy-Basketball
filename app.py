@@ -5,6 +5,7 @@ from operator import itemgetter
 import time
 
 import requests
+import chromedriver_binary
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request, redirect, url_for, abort
 from selenium import webdriver
